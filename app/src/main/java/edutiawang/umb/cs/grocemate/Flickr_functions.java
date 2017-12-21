@@ -27,6 +27,7 @@ public class Flickr_functions {
         String url = FLICKR_BASE_URL + FLICKR_PHOTOS_SEARCH_STRING +
                 APIKEY_SEARCH_STRING + TAGS_STRING + parameter +
                 FORMAT_STRING + "&per_page="+NUMBER_OF_PHOTOS+"&media=photos";
+
         return url;
     }
 

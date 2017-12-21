@@ -56,6 +56,7 @@ public class Image_Handlers {
 
         float total_sum= r_sum + g_sum + b_sum;
         ratio[0] = r_sum/total_sum; ratio[1] = g_sum/total_sum; ratio[2] = b_sum/total_sum;
+        System.out.println(ratio[0] + " "+ ratio[1] +" " + ratio[2]);
         return ratio;
     }
 }

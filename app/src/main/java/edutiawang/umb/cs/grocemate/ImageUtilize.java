@@ -13,7 +13,7 @@ public class ImageUtilize {
 
     ImageUtilize(int WIDTH, int HEIGHT){
         this.WIDTH = WIDTH; this.HEIGHT = HEIGHT;
-        grid_num = 100;
+        grid_num = 10;
         grid_WIDTH = WIDTH/grid_num; grid_HEIGHT = HEIGHT/grid_num;
     }
 

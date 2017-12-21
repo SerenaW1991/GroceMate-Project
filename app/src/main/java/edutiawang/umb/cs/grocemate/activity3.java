@@ -208,9 +208,9 @@ public class activity3 extends AppCompatActivity implements SurfaceHolder.Callba
 
                 if (location != null){
                     RectLeft = location[0];
-                    RectRight = WIDTH - (location[0] + WIDTH / 100);
+                    RectRight = WIDTH - (location[0] + WIDTH / 10);
                     RectTop = location[1];
-                    RectBottom = RectTop + HEIGHT/100;
+                    RectBottom = RectTop + HEIGHT/10;
 
                     Draw();
                 }

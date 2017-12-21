@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements TaskCompleted {
         }else{
             toPass = "";
         }
+        System.out.println(toPass);
 
         intent.putExtra("color_ratios", toPass);
         startActivity(intent);
